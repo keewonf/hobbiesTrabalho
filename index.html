@@ -3,51 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Trabalho</title>
   </head>
   <body>
+    <!-- Título principal -->
     <header>
       <h1>Lucas Moura</h1>
     </header>
-    <section>
-      <h2>Sobre mim</h2>
-      <p>
-        Me chamo Lucas Fraga Maria de Moura, tenho 26 anos de idade, e moro em
-        Porto Alegre. Tenho interesse em jogos variados, e passar o tempo dentro
-        e fora deles com meus amigos, e de uns tempos para ca o desenvolvimento
-        web também tem sido um interesse grande meu.
-      </p>
-      <h3>Meus hobbies</h3>
-      <ul>
-        <li>Jogos</li>
-        <li>Programação</li>
-        <li>Televisão</li>
-      </ul>
-      <img src="hobbie.jpg" alt="Hobby: Assistindo televisão" />
-    </section>
 
-    <section>
-      <h2>Países que quero visitar</h2>
-      <table border="1">
-        <tr>
-          <th>País</th>
-          <th>Imagem</th>
-        </tr>
-        <tr>
-          <td>Brasil</td>
-          <td>Brasil</td>
-        </tr>
-        <tr>
-          <td>Brasil</td>
-          <td>Brasil</td>
-        </tr>
-        <tr>
-          <td>Brasil</td>
-          <td>Brasil</td>
-        </tr>
-      </table>
-    </section>
+    <main>
+      <section>
+        <h2>Sobre mim</h2>
+        <!--Parágrafo autobiografia-->
+        <p>
+          Me chamo Lucas Fraga Maria de Moura, tenho 26 anos de idade, e moro em
+          Porto Alegre. Tenho interesse em jogos variados, e passar o tempo
+          dentro e fora deles com meus amigos, e de uns tempos para ca o
+          desenvolvimento web também tem sido um interesse grande meu.
+        </p>
+        <!--Lista não ordenada-->
+        <h3>Meus hobbies</h3>
+        <ul>
+          <li>Jogos</li>
+          <li>Programação</li>
+          <li>Televisão</li>
+        </ul>
+        <!-- Imagem de um dos hobbies-->
+        <img
+          class="hobbieImg"
+          src="./assets/hobbie.jpg"
+          alt="Hobby: Assistindo televisão"
+        />
+      </section>
+      <!-- Tabela com nome e países-->
+      <section>
+        <h2>Países que quero visitar</h2>
+        <table>
+          <colgroup>
+            <col />
+            <col />
+          </colgroup>
+          <tr>
+            <th>País</th>
+            <th>Imagem</th>
+          </tr>
+          <tr>
+            <td>Itália</td>
+            <td>
+              <a href="./assets/italy.jpg" target="_blank">
+                <img src="./assets/italy.jpg" alt="Imagem da Itália" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Coreia</td>
+            <td>
+              <a href="./assets/korea.jpg" target="_blank">
+                <img src="./assets/korea.jpg" alt="Imagem da Coreia" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Canadá</td>
+            <td>
+              <a href="./assets/canada.jpg" target="_blank">
+                <img src="./assets/canada.jpg" alt="Imagem do Canadá" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <!--  Link de interesse   -->
+      <section>
+        <h2>Site que gosto:</h2>
+        <a href="https://www.youtube.com/">Youtube</a>
+      </section>
+    </main>
 
-    <a href="https://www.youtube.com/">Youtube</a>
+    <footer>
+      <p>&copy; Lucas Moura.</p>
+    </footer>
   </body>
 </html>
