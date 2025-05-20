@@ -10,11 +10,22 @@
     <!-- Título principal -->
     <header>
       <h1>Lucas Moura</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="#sobre">Sobre mim</a></li>
+          <strong>|</strong>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <strong>|</strong>
+          <li><a href="#paises">Países</a></li>
+          <strong>|</strong>
+          <li><a href="#site">Site favorito</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section>
-        <h2>Sobre mim</h2>
+      <section id="sobre">
+        <h2>✒️ Sobre mim:</h2>
         <!--Parágrafo autobiografia-->
         <p>
           Me chamo Lucas Fraga Maria de Moura, tenho 26 anos e moro em Porto
@@ -26,11 +37,13 @@
         <!--Botão com mensagem-->
         <button class="welcomeButton">Clique para ver uma mensagem!</button>
         <strong class="message">
-          Bom dia visitante como vai! Faremos o possível para sermos bons
-          amigos! Bom dia visitante como vai!
+          ✨ Bom dia visitante como vai! Faremos o possível para sermos bons
+          amigos! Bom dia visitante como vai! ✨
         </strong>
+        </section>
         <!--Lista não ordenada-->
-        <h3>Meus hobbies</h3>
+        <section id="hobbies">
+        <h3>🕹️ Meus hobbies:</h3>
         <div class="hobbies">
           <ul>
             <li>Jogos</li>
@@ -42,10 +55,11 @@
           <img class="hobbieImg" src="./assets/hobbie.jpg" alt="Hobbies" />
           <button id="next">→</button>
         </div>
-      </section>
+        </section>
+      
       <!-- Tabela com nome e países-->
-      <section>
-        <h2>Países que quero visitar</h2>
+      <section id="paises">
+        <h2>🌍 Países que quero visitar:</h2>
         <table>
           <colgroup>
             <col />
@@ -82,8 +96,8 @@
         </table>
       </section>
       <!--  Link de interesse   -->
-      <section>
-        <h2>Site que gosto:</h2>
+      <section id="site">
+        <h2>🚨 Site que gosto:</h2>
         <a href="https://www.youtube.com/" target="_blank">Youtube</a>
       </section>
     </main>
