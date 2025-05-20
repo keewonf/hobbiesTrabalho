@@ -17,24 +17,31 @@
         <h2>Sobre mim</h2>
         <!--Parágrafo autobiografia-->
         <p>
-          Me chamo Lucas Fraga Maria de Moura, tenho 26 anos de idade, e moro em
-          Porto Alegre. Tenho interesse em jogos variados, e passar o tempo
-          dentro e fora deles com meus amigos, e de uns tempos para ca o
-          desenvolvimento web também tem sido um interesse grande meu.
+          Me chamo Lucas Fraga Maria de Moura, tenho 26 anos e moro em Porto
+          Alegre. Tenho interesse por jogos variados e gosto de passar o tempo,
+          dentro e fora deles, com meus amigos. De uns tempos para cá, o
+          desenvolvimento web também se tornou um grande interesse meu.
         </p>
+
+        <!--Botão com mensagem-->
+        <button class="welcomeButton">Clique para ver uma mensagem!</button>
+        <strong class="message">
+          Bom dia visitante como vai! Faremos o possível para sermos bons
+          amigos! Bom dia visitante como vai!
+        </strong>
         <!--Lista não ordenada-->
         <h3>Meus hobbies</h3>
-        <ul>
-          <li>Jogos</li>
-          <li>Programação</li>
-          <li>Televisão</li>
-        </ul>
-        <!-- Imagem de um dos hobbies-->
-        <img
-          class="hobbieImg"
-          src="./assets/hobbie.jpg"
-          alt="Hobby: Assistindo televisão"
-        />
+        <div class="hobbies">
+          <ul>
+            <li>Jogos</li>
+            <li>Programação</li>
+            <li>Televisão</li>
+          </ul>
+          <!-- Imagem dos hobbies-->
+          <button id="prev">←</button>
+          <img class="hobbieImg" src="./assets/hobbie.jpg" alt="Hobbies" />
+          <button id="next">→</button>
+        </div>
       </section>
       <!-- Tabela com nome e países-->
       <section>
@@ -77,12 +84,13 @@
       <!--  Link de interesse   -->
       <section>
         <h2>Site que gosto:</h2>
-        <a href="https://www.youtube.com/">Youtube</a>
+        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
       </section>
     </main>
 
     <footer>
       <p>&copy; Lucas Moura.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
